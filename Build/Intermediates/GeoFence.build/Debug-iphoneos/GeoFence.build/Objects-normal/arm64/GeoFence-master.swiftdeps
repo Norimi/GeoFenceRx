@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "9033b6fcef3ffd40ed45dfe60f10d45c"
+build_time: [544833107, 739462000]
+inputs:
+  "/Users/netnorimingconception/utils/GeoFence/GeoFence/ViewController.swift": [544549615, 0]
+  "/Users/netnorimingconception/utils/GeoFence/GeoFence/RxCLLocationManagerDelegateProxy.swift": [544767819, 0]
+  "/Users/netnorimingconception/utils/GeoFence/GeoFence/AppDelegate.swift": [544549615, 0]

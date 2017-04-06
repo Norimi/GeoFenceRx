@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GeoFence" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="KNg-LF-ahG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5M-CS-hAu">
+                                <rect key="frame" x="16" y="20" width="343" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="bhc-PA-cNW"/>
+                                    <constraint firstAttribute="height" constant="57" id="hpb-m4-Ele"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="34"/>
+                                <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KNg-LF-ahG" firstAttribute="top" secondItem="r5M-CS-hAu" secondAttribute="bottom" constant="-77" id="Aqz-xB-kXB"/>
+                            <constraint firstItem="r5M-CS-hAu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q5A-3I-cVr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KNg-LF-ahG" secondAttribute="bottom" id="Yd8-2y-gtq"/>
+                            <constraint firstAttribute="trailing" secondItem="KNg-LF-ahG" secondAttribute="trailing" id="ef1-XX-IcY"/>
+                            <constraint firstItem="KNg-LF-ahG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="llf-Ta-pgi"/>
+                            <constraint firstItem="KNg-LF-ahG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ynC-gs-ebY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="geoLabel" destination="r5M-CS-hAu" id="KkW-mo-WDq"/>
+                        <outlet property="mapView" destination="KNg-LF-ahG" id="kl0-WU-8NF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="104.7976011994003"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,645 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxCLLocationManagerDelegateProxy"
+provides-nominal:
+- "C8GeoFence32RxCLLocationManagerDelegateProxy"
+provides-member:
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", ""]
+- ["V7RxSwift8Reactive", ""]
+- ["V7RxSwift8Reactive", "delegate"]
+- ["V7RxSwift8Reactive", "rx_didUpdateLocations"]
+- ["V7RxSwift8Reactive", "rx_didFailWithError"]
+- ["V7RxSwift8Reactive", "rx_didChangeAuthorizationStatus"]
+- ["V7RxSwift8Reactive", "rx_didEnterRegion"]
+- ["V7RxSwift8Reactive", "rx_didExitRegion"]
+provides-dynamic-lookup:
+- "currentDelegateFor"
+- "setCurrentDelegate"
+depends-top-level:
+- "CLLocationManager"
+- "CLAuthorizationStatus"
+- !private "castOrThrow"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "NSError"
+- "AnyObject"
+- "DelegateProxy"
+- "DelegateProxyType"
+- "Reactive"
+- "CLLocation"
+- "CLLocationManagerDelegate"
+- !private "RxCocoaError"
+- "Observable"
+- "RxCLLocationManagerDelegateProxy"
+depends-member:
+- !private ["Ps9AnyObject", "E"]
+- ["Ps9AnyObject", "assignProxy"]
+- ["Ps9AnyObject", "assignedProxyFor"]
+- ["Ps9AnyObject", "createProxyForObject"]
+- ["Ps9AnyObject", "currentDelegateFor"]
+- ["Ps9AnyObject", "deinit"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "forwardToDelegate"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "locationManager"]
+- ["Ps9AnyObject", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9AnyObject", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9AnyObject", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "methodInvoked"]
+- !private ["Ps9AnyObject", "proxyForObject"]
+- ["Ps9AnyObject", "setCurrentDelegate"]
+- ["Ps9AnyObject", "setForwardToDelegate"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Index"]
+- !private ["Sa", "IndexDistance"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "Index"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "Indices"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "SubSequence"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps22BidirectionalIndexable", "Index"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "Indices"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "SubSequence"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "subscript"]
+- !private ["Vs18BidirectionalSlice", "Index"]
+- !private ["Vs18BidirectionalSlice", "IndexDistance"]
+- !private ["Vs18BidirectionalSlice", "Indices"]
+- !private ["Vs18BidirectionalSlice", "Iterator"]
+- !private ["Vs18BidirectionalSlice", "SubSequence"]
+- !private ["Vs18BidirectionalSlice", "_Element"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- !private ["OSC21CLAuthorizationStatus", "deinit"]
+- ["CSo17CLLocationManager", "deinit"]
+- !private ["CSo17CLLocationManager", "delegate"]
+- ["PSo25CLLocationManagerDelegate", "assignProxy"]
+- ["PSo25CLLocationManagerDelegate", "assignedProxyFor"]
+- ["PSo25CLLocationManagerDelegate", "createProxyForObject"]
+- ["PSo25CLLocationManagerDelegate", "currentDelegateFor"]
+- ["PSo25CLLocationManagerDelegate", "deinit"]
+- ["PSo25CLLocationManagerDelegate", "forwardToDelegate"]
+- ["PSo25CLLocationManagerDelegate", "locationManager"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo25CLLocationManagerDelegate", "proxyForObject"]
+- ["PSo25CLLocationManagerDelegate", "setCurrentDelegate"]
+- ["PSo25CLLocationManagerDelegate", "setForwardToDelegate"]
+- ["PSo25CLLocationManagerDelegate", ""]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- !private ["Ps7CVarArg", "_Element"]
+- ["Ps7CVarArg", "assignProxy"]
+- ["Ps7CVarArg", "assignedProxyFor"]
+- ["Ps7CVarArg", "createProxyForObject"]
+- ["Ps7CVarArg", "currentDelegateFor"]
+- !private ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "forwardToDelegate"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "locationManager"]
+- ["Ps7CVarArg", "locationManagerDidPauseLocationUpdates"]
+- ["Ps7CVarArg", "locationManagerDidResumeLocationUpdates"]
+- ["Ps7CVarArg", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps7CVarArg", "methodInvoked"]
+- !private ["Ps7CVarArg", "proxyForObject"]
+- ["Ps7CVarArg", "setCurrentDelegate"]
+- ["Ps7CVarArg", "setForwardToDelegate"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Indices"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "assignProxy"]
+- ["Ps28CustomDebugStringConvertible", "assignedProxyFor"]
+- !private ["Ps28CustomDebugStringConvertible", "castingError"]
+- ["Ps28CustomDebugStringConvertible", "createProxyForObject"]
+- ["Ps28CustomDebugStringConvertible", "currentDelegateFor"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "forwardToDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "locationManager"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerDidPauseLocationUpdates"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerDidResumeLocationUpdates"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps28CustomDebugStringConvertible", "methodInvoked"]
+- !private ["Ps28CustomDebugStringConvertible", "proxyForObject"]
+- ["Ps28CustomDebugStringConvertible", "setCurrentDelegate"]
+- ["Ps28CustomDebugStringConvertible", "setForwardToDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- ["Ps23CustomStringConvertible", "assignProxy"]
+- ["Ps23CustomStringConvertible", "assignedProxyFor"]
+- ["Ps23CustomStringConvertible", "createProxyForObject"]
+- ["Ps23CustomStringConvertible", "currentDelegateFor"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "forwardToDelegate"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "locationManager"]
+- ["Ps23CustomStringConvertible", "locationManagerDidPauseLocationUpdates"]
+- ["Ps23CustomStringConvertible", "locationManagerDidResumeLocationUpdates"]
+- ["Ps23CustomStringConvertible", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps23CustomStringConvertible", "methodInvoked"]
+- !private ["Ps23CustomStringConvertible", "proxyForObject"]
+- ["Ps23CustomStringConvertible", "setCurrentDelegate"]
+- ["Ps23CustomStringConvertible", "setForwardToDelegate"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs27DefaultBidirectionalIndices", "Index"]
+- !private ["Vs27DefaultBidirectionalIndices", "Iterator"]
+- !private ["Vs27DefaultBidirectionalIndices", "SubSequence"]
+- !private ["Vs27DefaultBidirectionalIndices", "_Element"]
+- !private ["Vs26DefaultRandomAccessIndices", "Index"]
+- !private ["Vs26DefaultRandomAccessIndices", "IndexDistance"]
+- !private ["Vs26DefaultRandomAccessIndices", "Indices"]
+- !private ["Vs26DefaultRandomAccessIndices", "Iterator"]
+- !private ["Vs26DefaultRandomAccessIndices", "SubSequence"]
+- !private ["Vs26DefaultRandomAccessIndices", "_Element"]
+- ["C7RxCocoa13DelegateProxy", "AnyObject"]
+- !private ["C7RxCocoa13DelegateProxy", "CLLocationManager"]
+- !private ["C7RxCocoa13DelegateProxy", "CLLocationManagerDelegate"]
+- ["C7RxCocoa13DelegateProxy", "assignProxy"]
+- ["C7RxCocoa13DelegateProxy", "assignedProxyFor"]
+- ["C7RxCocoa13DelegateProxy", "createProxyForObject"]
+- ["C7RxCocoa13DelegateProxy", "currentDelegateFor"]
+- ["C7RxCocoa13DelegateProxy", "deinit"]
+- ["C7RxCocoa13DelegateProxy", "forwardToDelegate"]
+- ["C7RxCocoa13DelegateProxy", "init"]
+- ["C7RxCocoa13DelegateProxy", "locationManager"]
+- ["C7RxCocoa13DelegateProxy", "locationManagerDidPauseLocationUpdates"]
+- ["C7RxCocoa13DelegateProxy", "locationManagerDidResumeLocationUpdates"]
+- ["C7RxCocoa13DelegateProxy", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["C7RxCocoa13DelegateProxy", "methodInvoked"]
+- !private ["C7RxCocoa13DelegateProxy", "proxyForObject"]
+- ["C7RxCocoa13DelegateProxy", "setCurrentDelegate"]
+- ["C7RxCocoa13DelegateProxy", "setForwardToDelegate"]
+- ["C7RxCocoa13DelegateProxy", ""]
+- ["P7RxCocoa17DelegateProxyType", "assignProxy"]
+- ["P7RxCocoa17DelegateProxyType", "assignedProxyFor"]
+- ["P7RxCocoa17DelegateProxyType", "createProxyForObject"]
+- ["P7RxCocoa17DelegateProxyType", "currentDelegateFor"]
+- ["P7RxCocoa17DelegateProxyType", "forwardToDelegate"]
+- ["P7RxCocoa17DelegateProxyType", "locationManager"]
+- ["P7RxCocoa17DelegateProxyType", "locationManagerDidPauseLocationUpdates"]
+- ["P7RxCocoa17DelegateProxyType", "locationManagerDidResumeLocationUpdates"]
+- ["P7RxCocoa17DelegateProxyType", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["P7RxCocoa17DelegateProxyType", "proxyForObject"]
+- ["P7RxCocoa17DelegateProxyType", "setCurrentDelegate"]
+- ["P7RxCocoa17DelegateProxyType", "setForwardToDelegate"]
+- ["P7RxCocoa17DelegateProxyType", ""]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- ["Ps9Equatable", "assignProxy"]
+- ["Ps9Equatable", "assignedProxyFor"]
+- ["Ps9Equatable", "createProxyForObject"]
+- ["Ps9Equatable", "currentDelegateFor"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "forwardToDelegate"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "locationManager"]
+- ["Ps9Equatable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9Equatable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9Equatable", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps9Equatable", "methodInvoked"]
+- !private ["Ps9Equatable", "proxyForObject"]
+- ["Ps9Equatable", "setCurrentDelegate"]
+- ["Ps9Equatable", "setForwardToDelegate"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "castingError"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Index"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- ["Ps8Hashable", "assignProxy"]
+- ["Ps8Hashable", "assignedProxyFor"]
+- ["Ps8Hashable", "createProxyForObject"]
+- ["Ps8Hashable", "currentDelegateFor"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "forwardToDelegate"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "locationManager"]
+- ["Ps8Hashable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps8Hashable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps8Hashable", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps8Hashable", "methodInvoked"]
+- !private ["Ps8Hashable", "proxyForObject"]
+- ["Ps8Hashable", "setCurrentDelegate"]
+- ["Ps8Hashable", "setForwardToDelegate"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Indices"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Indices"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "_DisabledRangeIndex"]
+- !private ["Si", "deinit"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["P7RxCocoa16KVORepresentable", "IntegerLiteralType"]
+- !private ["P7RxCocoa16KVORepresentable", "Stride"]
+- !private ["P7RxCocoa16KVORepresentable", "_DisabledRangeIndex"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- !private ["Ps17MutableCollection", "Index"]
+- !private ["Ps17MutableCollection", "IndexDistance"]
+- !private ["Ps17MutableCollection", "SubSequence"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "IndexDistance"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["CSo7NSError", "deinit"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CLLocationManager"]
+- !private ["CSo8NSObject", "CLLocationManagerDelegate"]
+- ["CSo8NSObject", "assignProxy"]
+- ["CSo8NSObject", "assignedProxyFor"]
+- ["CSo8NSObject", "createProxyForObject"]
+- ["CSo8NSObject", "currentDelegateFor"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "forwardToDelegate"]
+- ["CSo8NSObject", "locationManager"]
+- ["CSo8NSObject", "locationManagerDidPauseLocationUpdates"]
+- ["CSo8NSObject", "locationManagerDidResumeLocationUpdates"]
+- ["CSo8NSObject", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["CSo8NSObject", "methodInvoked"]
+- !private ["CSo8NSObject", "proxyForObject"]
+- ["CSo8NSObject", "setCurrentDelegate"]
+- ["CSo8NSObject", "setForwardToDelegate"]
+- ["PSo16NSObjectProtocol", "assignProxy"]
+- ["PSo16NSObjectProtocol", "assignedProxyFor"]
+- ["PSo16NSObjectProtocol", "createProxyForObject"]
+- ["PSo16NSObjectProtocol", "currentDelegateFor"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "forwardToDelegate"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "locationManager"]
+- ["PSo16NSObjectProtocol", "locationManagerDidPauseLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerDidResumeLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo16NSObjectProtocol", "methodInvoked"]
+- !private ["PSo16NSObjectProtocol", "proxyForObject"]
+- ["PSo16NSObjectProtocol", "setCurrentDelegate"]
+- ["PSo16NSObjectProtocol", "setForwardToDelegate"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C7RxSwift10Observable", "E"]
+- ["C7RxSwift10Observable", "deinit"]
+- !private ["C7RxSwift10Observable", "map"]
+- !private ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "map"]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "map"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Index"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "Indices"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "SubSequence"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps21RandomAccessIndexable", "Index"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "Indices"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "SubSequence"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "subscript"]
+- !private ["Vs17RandomAccessSlice", "Index"]
+- !private ["Vs17RandomAccessSlice", "IndexDistance"]
+- !private ["Vs17RandomAccessSlice", "Indices"]
+- !private ["Vs17RandomAccessSlice", "Iterator"]
+- !private ["Vs17RandomAccessSlice", "SubSequence"]
+- !private ["Vs17RandomAccessSlice", "_Element"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps26RangeReplaceableCollection", "Index"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "SubSequence"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps25RangeReplaceableIndexable", "Index"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "SubSequence"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "subscript"]
+- ["V7RxSwift8Reactive", "CLAuthorizationStatus"]
+- ["V7RxSwift8Reactive", "CLLocation"]
+- ["V7RxSwift8Reactive", "CLLocationManager"]
+- !private ["V7RxSwift8Reactive", "CLLocationManagerDelegate"]
+- ["V7RxSwift8Reactive", "DelegateProxy"]
+- ["V7RxSwift8Reactive", "NSError"]
+- ["V7RxSwift8Reactive", "Observable"]
+- !private ["V7RxSwift8Reactive", "RxCLLocationManagerDelegateProxy"]
+- !private ["V7RxSwift8Reactive", "base"]
+- !private ["V7RxSwift8Reactive", "castOrThrow"]
+- ["V7RxSwift8Reactive", "deinit"]
+- ["V7RxSwift8Reactive", "delegate"]
+- ["V7RxSwift8Reactive", "rx_didChangeAuthorizationStatus"]
+- ["V7RxSwift8Reactive", "rx_didEnterRegion"]
+- ["V7RxSwift8Reactive", "rx_didExitRegion"]
+- ["V7RxSwift8Reactive", "rx_didFailWithError"]
+- ["V7RxSwift8Reactive", "rx_didUpdateLocations"]
+- ["P7RxSwift18ReactiveCompatible", "assignProxy"]
+- ["P7RxSwift18ReactiveCompatible", "assignedProxyFor"]
+- ["P7RxSwift18ReactiveCompatible", "createProxyForObject"]
+- ["P7RxSwift18ReactiveCompatible", "currentDelegateFor"]
+- !private ["P7RxSwift18ReactiveCompatible", "delegate"]
+- ["P7RxSwift18ReactiveCompatible", "forwardToDelegate"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- ["P7RxSwift18ReactiveCompatible", "locationManager"]
+- ["P7RxSwift18ReactiveCompatible", "locationManagerDidPauseLocationUpdates"]
+- ["P7RxSwift18ReactiveCompatible", "locationManagerDidResumeLocationUpdates"]
+- ["P7RxSwift18ReactiveCompatible", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["P7RxSwift18ReactiveCompatible", "methodInvoked"]
+- !private ["P7RxSwift18ReactiveCompatible", "proxyForObject"]
+- ["P7RxSwift18ReactiveCompatible", "setCurrentDelegate"]
+- ["P7RxSwift18ReactiveCompatible", "setForwardToDelegate"]
+- ["P7RxSwift18ReactiveCompatible", ""]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "AnyObject"]
+- !private ["C8GeoFence32RxCLLocationManagerDelegateProxy", "CLLocationManager"]
+- !private ["C8GeoFence32RxCLLocationManagerDelegateProxy", "CLLocationManagerDelegate"]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "assignProxy"]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "assignedProxyFor"]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "createProxyForObject"]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "currentDelegateFor"]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "deinit"]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "forwardToDelegate"]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "init"]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "locationManager"]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "locationManagerDidPauseLocationUpdates"]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "locationManagerDidResumeLocationUpdates"]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["C8GeoFence32RxCLLocationManagerDelegateProxy", "proxyForObject"]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "setCurrentDelegate"]
+- ["C8GeoFence32RxCLLocationManagerDelegateProxy", "setForwardToDelegate"]
+- !private ["O7RxCocoa12RxCocoaError", "castingError"]
+- !private ["O7RxCocoa12RxCocoaError", "deinit"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Indices"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- !private ["Ps14_ArrayProtocol", "Index"]
+- !private ["Ps14_ArrayProtocol", "IndexDistance"]
+- !private ["Ps14_ArrayProtocol", "SubSequence"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
+- ["Ps9_Hashable", "assignProxy"]
+- ["Ps9_Hashable", "assignedProxyFor"]
+- ["Ps9_Hashable", "createProxyForObject"]
+- ["Ps9_Hashable", "currentDelegateFor"]
+- !private ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "forwardToDelegate"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "locationManager"]
+- ["Ps9_Hashable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9_Hashable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9_Hashable", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps9_Hashable", "methodInvoked"]
+- !private ["Ps9_Hashable", "proxyForObject"]
+- ["Ps9_Hashable", "setCurrentDelegate"]
+- ["Ps9_Hashable", "setForwardToDelegate"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- ["CSo16_RXDelegateProxy", "AnyObject"]
+- !private ["CSo16_RXDelegateProxy", "CLLocationManager"]
+- !private ["CSo16_RXDelegateProxy", "CLLocationManagerDelegate"]
+- ["CSo16_RXDelegateProxy", "assignProxy"]
+- ["CSo16_RXDelegateProxy", "assignedProxyFor"]
+- ["CSo16_RXDelegateProxy", "createProxyForObject"]
+- ["CSo16_RXDelegateProxy", "currentDelegateFor"]
+- ["CSo16_RXDelegateProxy", "forwardToDelegate"]
+- ["CSo16_RXDelegateProxy", "locationManager"]
+- ["CSo16_RXDelegateProxy", "locationManagerDidPauseLocationUpdates"]
+- ["CSo16_RXDelegateProxy", "locationManagerDidResumeLocationUpdates"]
+- ["CSo16_RXDelegateProxy", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["CSo16_RXDelegateProxy", "methodInvoked"]
+- !private ["CSo16_RXDelegateProxy", "proxyForObject"]
+- ["CSo16_RXDelegateProxy", "setCurrentDelegate"]
+- ["CSo16_RXDelegateProxy", "setForwardToDelegate"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "IntegerLiteralType"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Vs18BidirectionalSlice"
+- !private "Ps17BitwiseOperations"
+- !private "OSC21CLAuthorizationStatus"
+- "CSo17CLLocationManager"
+- "PSo25CLLocationManagerDelegate"
+- "Ps7CVarArg"
+- !private "Vs11ClosedRange"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs27DefaultBidirectionalIndices"
+- !private "Vs26DefaultRandomAccessIndices"
+- "C7RxCocoa13DelegateProxy"
+- "P7RxCocoa17DelegateProxyType"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "P7RxCocoa16KVORepresentable"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "CSo7NSError"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Vs17RandomAccessSlice"
+- !private "Vs5Range"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "V7RxSwift8Reactive"
+- "P7RxSwift18ReactiveCompatible"
+- "C8GeoFence32RxCLLocationManagerDelegateProxy"
+- !private "O7RxCocoa12RxCocoaError"
+- "V10ObjectiveC8Selector"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- "CSo16_RXDelegateProxy"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm.swiftmodule"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm.swiftmodule"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/netnorimingconception/utils/GeoFence/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+interface-hash: "2d896c6c92dcdb2175708eb83962f9df"
